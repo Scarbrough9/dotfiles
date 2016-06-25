@@ -1,4 +1,5 @@
-# Mathias’s dotfiles
+# Scarbrough9 dotfiles
+Forked from [Mathias Bynens](https://github.com/mathiasbynens) dotfiles repo. You can find that at [https://mths.be/dotfiles](https://mths.be/dotfiles).
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
