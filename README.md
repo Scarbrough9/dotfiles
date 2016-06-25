@@ -89,7 +89,7 @@ Suggestions/improvements
 
 ## Author
 
-| [![twitter/Scarbrough9](https://s.gravatar.com/avatar/004cd00898303da3434960fdbeff7c18?s=80)](http://twitter.com/Scarbrough9 "Follow @Scarbrough9 on Twitter") |
+| [![twitter/Scarbrough9](https://s.gravatar.com/avatar/004cd00898303da3434960fdbeff7c18?s=120)](http://twitter.com/Scarbrough9 "Follow @Scarbrough9 on Twitter") |
 |---|
 | [Josh Scarbrough](https://scarbroughstudios.com/) |
 
