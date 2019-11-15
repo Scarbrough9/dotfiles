@@ -53,49 +53,87 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
+# brew install xz
 
 # Install other useful binaries.
-brew install ack
+# brew install ack
 #brew install exiv2
-brew install git
-brew install git-lfs
-brew install gs
-brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rlwrap
-brew install ssh-copy-id
-brew install tree
-brew install vbindiff
-brew install zopfli
+# brew install git
+# brew install git-lfs
+# brew install gs
+# brew install imagemagick --with-webp
+# brew install lua
+# brew install lynx
+# brew install p7zip
+# brew install pigz
+# brew install pv
+# brew install rename
+# brew install rlwrap
+# brew install ssh-copy-id
+# brew install tree
+# brew install vbindiff
+# brew install zopfli
+
+# install packages
+brew install gpg
+brew install nvm
+brew install composer
+brew cask install slack
+brew cask install iterm2
+brew cask install 1password
+brew cask install google-chrome
+brew cask install firefox
+brew cask install opera
+brew cask install visual-studio-code
+brew cask install docker
+brew cask install sequel-pro
+brew cask install caffeine
+brew cask install adobe-creative-cloud
+brew cask install gpgtools
+brew cask install alfred
+brew cask install moom
+brew cask install sketch
+brew cask install spotify
+
+# NVM setup
+mkdir ~/.nvm
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
+echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.bash_profile
+source ~/.bash_profile
+nvm install node
+nvm use node
+nvm alias default node
+
+# Laravel Setup
+composer global require "laravel/installer"
+composer global require "laravel/valet"
+echo 'export PATH=$HOME/.composer/vendor/bin:$PATH' >> ~/.bash_profile
+
+# Install Yarn
+brew install yarn --ignore-dependencies
 
 # Remove outdated versions from the cellar.
 brew cleanup
